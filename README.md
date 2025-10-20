@@ -1,2 +1,2 @@
-# krx-simulator
+# KRX Simulator
 KRX Simulator Trading
