@@ -1,0 +1,56 @@
+order_date: ''
+base_sftp_path: 'data/sftp'
+order_date: ''
+
+trading_clients:
+  hnx:
+    - HNX_TRADING
+  hsx:
+    - HSX_TRADING
+
+tz: Asia/Ho_Chi_Minh
+
+sessions:
+  hsx:
+    # PREOPEN:
+    #   start: '08:00:00'
+    #   end: '09:00:00'
+    ATO:
+      start: '09:00:00'
+      end: '09:15:00'
+    LO1:
+      start: '09:15:00'
+      end: '13:00:00'
+    PENDING:
+      start: '11:30:00'
+      end: '13:00:00'
+    LO2:
+      start: '13:00:00'
+      end: '14:30:00'
+    ATC:
+      start: '14:30:00'
+      end: '14:45:00'
+    PLO:
+      start: '14:45:00'
+      end: '15:00:00'
+    CLOSE:
+      start: '15:00:00'
+      end: '23:59:59'
+  hnx:
+    LO1:
+      start: '09:00:00'
+      end: '11:30:00'
+    PENDING:
+      start: '11:30:00'
+      end: '13:00:00'
+    LO2:
+      start: '13:00:00'
+      end: '15:00:00'
+    CLOSE:
+      start: '15:00:00'
+      end: '23:59:59'
+  
+cfg:
+  trading:
+    hsx: 'data/cfg/trading/hsx.cfg'
+    hnx: 'data/cfg/trading/hnx.cfg'
